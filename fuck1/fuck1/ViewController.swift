@@ -29,8 +29,8 @@ class ViewController1: UIViewController {
     }
     
     func calc(){
-        let weight = Int(input.text!)
-        let ret = weight!*299792458
+        let weight = Int((input.text)!) ?? 0
+        let ret = weight*299792458
         energy.text = String(ret)
         energy.sizeToFit()
         

@@ -28,13 +28,13 @@ class ViewController2: UIViewController {
     }
     
     func check(){
-        let answer = Int(input.text!)
+        let answer = Int((input.text)!) ?? 0
         print(correct)
         if(correct == answer){
             chnum.text = "oh,yes!" + String(correct)
             chnum.sizeToFit()
         }else{
-            chnum.text = "no, fuck you" + String(describing: answer)
+            chnum.text = "no, fuck you" + String(answer)
             chnum.sizeToFit()
         }
     }
