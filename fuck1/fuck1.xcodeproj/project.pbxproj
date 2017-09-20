@@ -12,6 +12,7 @@
 		9B425BC61F72144200966B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B425BC41F72144200966B51 /* Main.storyboard */; };
 		9B425BC81F72144200966B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B425BC71F72144200966B51 /* Assets.xcassets */; };
 		9B425BCB1F72144200966B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B425BC91F72144200966B51 /* LaunchScreen.storyboard */; };
+		9B6AF92A1F72D4F30042C477 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AF9291F72D4F30042C477 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9B425BC71F72144200966B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B425BCA1F72144200966B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B425BCC1F72144200966B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6AF9291F72D4F30042C477 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9B425BC01F72144100966B51 /* AppDelegate.swift */,
 				9B425BC21F72144100966B51 /* ViewController.swift */,
 				9B425BC41F72144200966B51 /* Main.storyboard */,
+				9B6AF9291F72D4F30042C477 /* ViewController2.swift */,
 				9B425BC71F72144200966B51 /* Assets.xcassets */,
 				9B425BC91F72144200966B51 /* LaunchScreen.storyboard */,
 				9B425BCC1F72144200966B51 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				9B425BC31F72144100966B51 /* ViewController.swift in Sources */,
 				9B425BC11F72144100966B51 /* AppDelegate.swift in Sources */,
+				9B6AF92A1F72D4F30042C477 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

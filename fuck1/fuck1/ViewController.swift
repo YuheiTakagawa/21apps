@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController1: UIViewController {
 
     @IBOutlet weak var input: UITextField!
     @IBOutlet weak var energy: UILabel!
